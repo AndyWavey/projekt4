@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="da" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> UCL Socials</title>
+        <link rel="stylesheet" href="style.css">
+          <script src="java.js" defer></script>
+            <script src="form.js" defer></script>
+          <a href="https://icons8.com/icon/59809/home"></a>
+  </head>
+  <body>
+
+<nav>
+  <div class="logo">
+    <img id="logo" src="./billeder/ucllogo1.png" alt="logo">
+
+  </div>
+
+
+  <ul class="nav-links">
+    <li> <a href="#">Profil</a></li>
+    <li> <a href="#">Tilmeldinger</a></li>
+    <li> <a href="#">Kalender</a></li>
+    <li> <a href="#">Favoritter</a></li>
+    <li> <a href="#">Mine begivenhed</a></li>
+    <li> <a href="#">Opret begivenheder</a></li>
+
+  </ul>
+
+  <div class="burger">
+    <div class="line1">  </div>
+    <div class="line2">  </div>
+    <div class="line3">  </div>
+  </div>
+
+</nav>
+
+    <div class="container">
+      <div class="header">
+  <h1>Opret din begivenhed</h1>
+  <button type="button" class="btn-header"name="button">Upload billede</button>
+</div>
+
+
+<form class="form" id="form" action="godkendelse.html" method="GET">
+
+<div class="form-control">
+<label>Begivenhedens navn</label>
+<input type="text" placeholder="Fx Løbeklub" id="begivenhed">
+<small>Error message</small>
+</div>
+
+<div class="form-control">
+<label>Lokation</label>
+<input type="text" placeholder="Beerbox" id="lokation">
+<small>Error message</small>
+</div>
+
+<div class="form-control">
+<label>Dato</label>
+<input type="text" placeholder="DD/MM/ÅÅ" id="dato">
+<small>Error message</small>
+</div>
+
+<div class="form-control">
+<label>Tid</label>
+<input type="text" placeholder="12:00" id="tid">
+<small>Error message</small>
+</div>
+
+<div class="form-control">
+<label>Beskrivelse</label>
+<input type="text" placeholder="" id="beskrivelse">
+<small>Error message</small>
+</div>
+
+   <button type="submit" class="btn">Opret begivenhed</button>
+
+  </form>
+  </div>
+  <nav class="footer-nav">
+    <a href="#" class="nav-link">
+    <img src="https://img.icons8.com/ios-filled/50/ffffff/home.png"/>
+      </a>
+    <a href="#" class="nav-link">
+      <img src="https://img.icons8.com/ios-filled/50/ffffff/two-tickets.png"/>
+    </a>
+    <a href="#" class="nav-link">
+  <img src="https://img.icons8.com/windows/64/ffffff/planner.png"/>
+    <a href="#" class="nav-link">
+<img src="https://img.icons8.com/ios-glyphs/60/ffffff/like--v1.png"/>
+</a>
+  </nav>
+
+</body>
+</html>
